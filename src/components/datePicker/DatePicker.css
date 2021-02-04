@@ -1,0 +1,47 @@
+.datePicker {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+    left: 25%;
+    width: 50vw;
+    background-color: yellow;
+
+}
+
+.datePicker-daterange {
+    display: flex;
+}
+
+.datePicker > h2 {
+    overflow: hidden;
+   display: flex; 
+   max-width: 559px;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   left: 0;
+   padding: 10px;
+}
+.datePicker > h2 > .MuiSvgIcon-root  {
+    margin-right: 10px;
+}
+
+.datePicker > input {
+    background-color: white;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+.datePicker > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    font-weight: 600;
+}
+
+.datePicker  > button:hover {
+    background-color: white;
+    color: #ff7779;
+}

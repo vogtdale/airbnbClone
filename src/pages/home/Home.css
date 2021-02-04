@@ -1,0 +1,7 @@
+
+
+.home-cardsection {
+    display: flex;
+    flex: 1;
+    padding: 30px;
+}
